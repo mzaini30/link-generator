@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Whatsapp Link Generator</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bin/style.css">
+	</head>
+	<body>
+
+
+		<div class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+					<a href="index.html" class="navbar-brand">Link Generator</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a target="_blank" href="https://play.google.com/store/apps/dev?id=6751907367958089476">Aplikasi Lainnya</a></li>
+			        <li><a target="_blank" href="https://api.whatsapp.com/send?phone=6281545143654&text=">Bantuan</a></li>
+			      </ul>
+			    </div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="form-group">
+				<label for="nomor-whatsapp">Nomor Whatsapp:</label>
+				<input type="number" class="form-control wa-input" id="nomor-whatsapp" placeholder="Contoh: 6281545143654" required>
+			</div>
+			<div class="form-group">
+				<label for="isi-pesan">Isi Pesan:</label>
+				<textarea class="form-control wa-input" rows="5" id="isi-pesan" placeholder="Contoh: Saya mau order 5 buku sekarang."></textarea>
+			</div> 
+			<center>
+				<button class="btn btn-danger convert">Convert</button>
+			</center>
+			<div class="form-group">
+				<label for="hasil">Hasil:</label>
+				<input type="text" class="form-control wa-output" id="hasil" readonly>
+			</div>
+		</div>
+		<script type="text/javascript" src="bin/jquery.min.js"></script>
+		<script type="text/javascript" src="bin/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bin/sweetalert.min.js"></script>
+		<script type="text/javascript" src="bin/app.js"></script>
+		
+	</body>
+</html>

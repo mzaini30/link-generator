@@ -1,2 +1,1 @@
-# link-generator
-Membuat link Whatsapp dengan sekali klik.
+Membuat link Whatsapp hanya dengan sekali klik.
